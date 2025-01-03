@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one">Hello World!!!</h1>
+    <button onclick="fun()">Submit</button>
+    <script>
+        var a = document.getElementById("one")
+        a.textContent
+        function fun(){
+            a.textContent="welcome"
+        }
+    </script>  
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img  id="one"  src="kingmaker.jpg" alt="kingmaker">
+    <button onclick="change()">Click..</button>
+    <script>
+    var a=document.getElementById("one")
+    function change(){
+        if(a.src.includes("kingmaker.jpg")){
+            a.src="thala.jpg";}
+        else if(a.src.includes("thala.jpg")){
+            a.src="yuvan.jpg";
+        }
+        else{
+            a.src="kingmaker.jpg";
+        }
+        
+        console.log(a.src);
+    }
+
+
+    </script>
+   
+</body>
+</html>

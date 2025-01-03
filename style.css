@@ -1,0 +1,38 @@
+#sd{
+    color: aqua;
+}
+table,th,tr,td{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+h1{
+    color: aqua;
+}
+span{
+    top: 3px;
+    position: sticky;
+}
+p{
+    height: 750px;
+    width: 750px;
+    overflow: scroll;
+}
+a:hover{
+    color: aqua;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+div{
+  font-style:normal; medium;color: blue;text-align: center;
+  display: inline-block;
+}
+.two{
+    display: inline;
+}
+figure{
+    display: inline-block;
+}
